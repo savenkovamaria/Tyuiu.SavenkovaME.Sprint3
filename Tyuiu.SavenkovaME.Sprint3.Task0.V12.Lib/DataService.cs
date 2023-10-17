@@ -10,9 +10,8 @@ namespace Tyuiu.SavenkovaME.Sprint3.Task0.V12.Lib
 {
     public class DataService : ISprint3Task0V12
     {
-        public double GetSumSeries(double value, int startValue, int stopValue)
+        public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
-            
             double pr = 1;
             int i;
             for (i = startValue; i <= stopValue; i++)

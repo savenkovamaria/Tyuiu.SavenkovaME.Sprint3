@@ -28,7 +28,7 @@ namespace Tyuiu.SavenkovaME.Sprint3.Task0.V12
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                             *");
             Console.WriteLine("********************************************************************************");
-            double t = 1;
+            int t = 1;
             int start = 1;
             int stop = 13;
 
@@ -39,7 +39,7 @@ namespace Tyuiu.SavenkovaME.Sprint3.Task0.V12
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                   *");
             Console.WriteLine("********************************************************************************");
-            Console.WriteLine("Произведние ряда = "+ ds.GetSumSeries(t, start, stop));
+            Console.WriteLine("Произведние ряда = "+ ds.GetMultiplySeries(t, start, stop));
             Console.ReadKey();
 
         }
